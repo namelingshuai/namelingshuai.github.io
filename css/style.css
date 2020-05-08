@@ -289,10 +289,13 @@ body {
 }
 
 .grid {
-    margin: 30px auto;
+    padding: 20px;
+    box-sizing: border-box;
+    /* margin: 30px auto; */
     padding: 0;
     list-style: none;
-    min-height: 500px
+    min-height: 500px;
+    width: 100% !important;
 }
 
 .js .grid {
@@ -306,7 +309,7 @@ body {
 .grid li {
     display: inline-block;
     overflow: hidden;
-    width: 314px;
+    width: 50%;
     text-align: left;
     vertical-align: top
 }
@@ -348,10 +351,17 @@ body {
     border: 0
 }
 
+.grid li img {
+    width: 100%;
+    border-radius: 10px;
+}
+
 .grid li>a {
     position: relative;
     overflow: hidden;
-    margin: 7px
+    /* margin: 7px */
+    padding: 7px;
+    overflow: hidden;
 }
 
 .grid .curtain {
