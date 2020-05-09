@@ -316,7 +316,9 @@ body {
 
 .js .grid li {
     display: none;
-    float: left
+    float: left;
+    padding: 7px;
+    overflow: hidden;
 }
 
 .js .grid.loaded li {
@@ -360,8 +362,7 @@ body {
     position: relative;
     overflow: hidden;
     /* margin: 7px */
-    padding: 7px;
-    overflow: hidden;
+   
 }
 
 .grid .curtain {
